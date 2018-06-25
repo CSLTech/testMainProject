@@ -1,0 +1,23 @@
+{
+  "name": "testmainproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CSLTech/testMainProject.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/CSLTech/testMainProject/issues"
+  },
+  "homepage": "https://github.com/CSLTech/testMainProject#readme",
+  "dependencies": {
+    "testdependency1": "git+https://github.com/CSLTech/testDependency1.git#master",
+    "testdependency2": "git+https://github.com/CSLTech/testDependency2.git#master"
+  }
+}
