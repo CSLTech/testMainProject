@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "post-merge": "npm update"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,8 @@
   },
   "homepage": "https://github.com/CSLTech/testMainProject#readme",
   "dependencies": {
-    "testdependency1": "git+https://github.com/CSLTech/testDependency1.git#master",
+    "husky": "^0.14.3",
+    "testdependency1": "git+https://github.com/CSLTech/testDependency1.git#anotherBranch",
     "testdependency2": "git+https://github.com/CSLTech/testDependency2.git#master"
   }
 }
